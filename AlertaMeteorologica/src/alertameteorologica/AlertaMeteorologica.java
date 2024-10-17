@@ -4,6 +4,7 @@ package alertameteorologica;
  *
  * @author fernando.pedridomarino
  */
+import java.util.Scanner;
 public class AlertaMeteorologica {
 // Definir constantes
     public static final int TEMPERATURA_ALTA = 24;  // Graos centígrados
@@ -11,8 +12,11 @@ public class AlertaMeteorologica {
 
     public static void main(String[] args) {
         // Variables de temperatura e humidade (poden modificarse para probar)
-        int temperatura = 25;  // Exemplos de valores
-        int humidade = 60;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce a temperatura (en grados): ");    
+        int temperatura = scanner.nextInt();
+        System.out.println("Introduce a humidade (%): ");
+        int humidade = scanner.nextInt();
 
         // Verificar as condicións e amosar a alerta correspondente
         if (temperatura > TEMPERATURA_ALTA && humidade > HUMIDADE_ALTA) {
