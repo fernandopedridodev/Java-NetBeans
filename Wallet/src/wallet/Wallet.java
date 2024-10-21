@@ -30,7 +30,7 @@ public class Wallet {
      */
     public String available() {
         if (money > 100) {
-            return "Si teño efectivo";
+            return "Si, teño suficiente efectivo";
         } else if (money <= 100 && card) {
             return "Teño que ir ao caixeiro";
         } else {
