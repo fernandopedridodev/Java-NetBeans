@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * *Creamos unha clase Canario, extendida dende a clase Ave, con atributos base
  */
 public class Canario extends Ave {
 

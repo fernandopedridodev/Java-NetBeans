@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * *Creamos unha clase TV, extendida dende a clase Aparato e implementamos o método Speaker
  */
 public class TV extends Aparato implements Speaker{
 
@@ -19,8 +20,13 @@ public class TV extends Aparato implements Speaker{
         this.inches = inches;
     }
 
-    @Override
+   @Override
     public void speak() {
-    }
+        System.out.println("Ola, son unha TV e sei falar");
+        System.out.println("Teletexto: " + teletext);
+        System.out.println("Consumo: " + consuption);
+        System.out.println("Pulgadas: " + inches);
+        System.out.println("Prezo: " + price);
     
+}
 }

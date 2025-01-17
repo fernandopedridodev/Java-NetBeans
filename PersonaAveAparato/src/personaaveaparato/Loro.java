@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * Creamos unha clase Loro, extendida dende a clase Ave e implementamos o método Speaker
  */
 public class Loro extends Ave implements Speaker{
 
@@ -24,5 +25,9 @@ public class Loro extends Ave implements Speaker{
     @Override
     public void speak() {
         System.out.println("Ola, son un loro e sei falar");
+        System.out.println("Rexion: " + region);
+        System.out.println("Sexo: " + sex);
+        System.out.println("Cor: " + color);
+        System.out.println("Idade: " + age);
 }
 }

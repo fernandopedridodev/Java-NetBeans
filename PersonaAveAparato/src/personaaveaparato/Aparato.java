@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * Creamos a clase abstracta Aparato que logo sera extendida a outras cos seus atributos
  */
  public abstract class Aparato {
 

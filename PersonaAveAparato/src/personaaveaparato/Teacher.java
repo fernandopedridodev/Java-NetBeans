@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ *Creamos unha clase Radio, extendida dende a clase Persona e implementamos o método Speaker
  */
 public class Teacher extends Persona implements Speaker{
 

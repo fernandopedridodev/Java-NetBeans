@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * Creamos unha clase Vulture, extendida dende a clase Ave e implementamos o método Speaker
  */
 public class Vulture extends Ave implements Speaker{
 

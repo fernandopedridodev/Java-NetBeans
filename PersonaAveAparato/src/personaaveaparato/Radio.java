@@ -7,7 +7,10 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
- */
+*Creamos unha clase Radio, extendida dende a clase Aparato e implementamos o método Speaker
+*/
+
+
 public class Radio extends Aparato implements Speaker{
 
     public boolean cassette;
@@ -21,5 +24,10 @@ public class Radio extends Aparato implements Speaker{
 
     @Override
     public void speak() {
-    }
+        System.out.println("Ola, son unha Radio e sei falar");
+        System.out.println("Cassette: " + cassette);
+        System.out.println("Potencia: " + power);
+        System.out.println("Consumo: " + consuption);
+        System.out.println("Prezo: " + price);
+}
 }

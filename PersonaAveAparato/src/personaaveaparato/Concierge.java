@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ *Creamos unha clase Concierge, extendida dende a clase Persona e implementamos o método Speaker
  */
 public class Concierge extends Persona implements Speaker{
 
@@ -19,7 +20,13 @@ public class Concierge extends Persona implements Speaker{
         this.seniority = seniority;
     }
 
-    @Override
+    
+        @Override
     public void speak() {
+        System.out.println("Ola, son un Bedel e sei falar");
+        System.out.println("Nome: " + name);
+        System.out.println("Turno: " + turn);
+        System.out.println("Antigüidade: " + seniority);
+        System.out.println("Idade: " + age);
     }
 }

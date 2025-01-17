@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ *Creamos unha claseStudent, extendida dende a clase Persona e implementamos o método Speaker
  */
 public class Student extends Persona implements Speaker{
 

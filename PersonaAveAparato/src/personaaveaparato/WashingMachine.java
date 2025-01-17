@@ -7,6 +7,7 @@ package personaaveaparato;
 /**
  *
  * @author fernando.pedridomarino
+ * *Creamos unha clase WashingMachine, extendida dende a clase Aparato
  */
 public class WashingMachine extends Aparato {
 
